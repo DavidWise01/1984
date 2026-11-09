@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–15 committed; Part One complete, Part Two Chapters 01–07 committed, and nine chapters remain planned.
+**Status:** Chapters 01–16 committed; Part One complete, Part Two Chapters 01–08 committed, and eight chapters remain planned.
 
 ## Play
 
@@ -23,6 +23,7 @@
 - [Chapter 13 — The Vanishing Comrade: Syme, Hate Week, and sprite comic](chapters/13-vanishing-comrade.html)
 - [Chapter 14 — O’Brien’s Invitation: Newspeak pretext and sprite comic](chapters/14-obriens-invitation.html)
 - [Chapter 15 — The Human Gesture: childhood memory and care](chapters/15-human-gesture.html)
+- [Chapter 16 — The Brotherhood Visit: O’Brien, the switched-off telescreen and three comic panels](chapters/16-brotherhood-visit.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -53,7 +54,7 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 013 | Two | 5 | The Vanishing Comrade | COMMITTED | [Play and view comic](chapters/13-vanishing-comrade.html) |
 | 014 | Two | 6 | O’Brien’s Invitation | COMMITTED | [Play and view comic](chapters/14-obriens-invitation.html) |
 | 015 | Two | 7 | The Human Gesture | COMMITTED | [Play and view comic](chapters/15-human-gesture.html) |
-| 016 | Two | 8 | The Brotherhood Visit | PLANNED | Not created |
+| 016 | Two | 8 | The Brotherhood Visit | COMMITTED | [Play and view comic](chapters/16-brotherhood-visit.html) |
 | 017 | Two | 9 | The Changed Enemy | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
@@ -231,6 +232,16 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 
 **Lineage:** Chapters 001–014 retained as separate immutable HTML releases. Game observations exist only in the current browser session; release files and the chronology correction are committed in Git.
 
+## Episode 016 — Part Two, Chapter Eight: The Brotherhood Visit
+
+**Story:** Winston and Julia visit O’Brien's privileged Inner Party apartment. O’Brien switches off his visible telescreen, offers wine, and presents himself as connected to resistance. The visitors are hopeful; their experiences nevertheless do not independently verify his intentions.
+
+**Sprite-comic:** [Chapter 016](chapters/16-brotherhood-visit.html) contains three distinct original 320×200 Canvas2D scenes (apartment entrance, switched-off telescreen, alleged resistance meeting), six inspectable witnesses, a claims comparison and uncertainty-seal gate. It supports keyboard and touch movement, optional sound, and three drawn comic panels. The [homepage](index.html#cartoons) renders a corresponding three-panel original cartoon gallery.
+
+**Invariant:** `power to disable a telescreen != trusted purpose`; `claimed allegiance != independently verified allegiance`. Observed conduct, reported commitments and unknown motives remain distinct.
+
+**Preservation:** The existing chapters 001–015 remain unchanged; browser interaction events are not permanent Git history. Commit the chapter, homepage and ledger independently and verify each SHA and Pages deployment status.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -253,9 +264,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 016
+## Next natural boundary — 1984 / 017
 
-**Part Two, Chapter Eight:** Winston and Julia visit O’Brien’s apartment, where he switches off the telescreen and appears to receive their political confidence. The next illustrated sprite adventure should distinguish a demonstrable switched-off device and O’Brien’s statements from independently verified trustworthiness. The chronology then advances to Part Two, Chapter Nine for the enemy reversal and Goldstein book.
+**Part Two, Chapter Nine:** During Hate Week the Party's declared enemy abruptly changes. Winston and other workers scramble to alter every record as if the new political account had always been true. Winston then reads Goldstein's book. The next sprite-comic should preserve the chronological difference between an earlier announcement, a later switch, and subsequent rewritten records; it should not treat propaganda as independent evidence.
 
 ### Superseded Chapter 015 forecast — chronology correction
 
