@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–04 committed; 20 further chapters remain planned, not yet authored.
+**Status:** Chapters 01–05 committed; 19 further chapters remain planned, not yet authored.
 
 ## Play
 
@@ -12,6 +12,7 @@
 - [Chapter 02 — The Knock at the Door](chapters/02-knock-at-door.html)
 - [Chapter 03 — The Golden Country](chapters/03-golden-country.html)
 - [Chapter 04 — The Records Department](chapters/04-records-department.html)
+- [Chapter 05 — Lunch and Newspeak](chapters/05-lunch-and-newspeak.html)
 - GitHub Pages target URL (only after Pages is enabled): `https://davidwise01.github.io/1984/`
 
 ### GitHub Pages deployment
@@ -26,7 +27,8 @@ This repository contains a complete `index.html` at the root and needs no build 
 | 002 | One | 2 | The Knock at the Door | COMMITTED | [Play](chapters/02-knock-at-door.html) |
 | 003 | One | 3 | The Golden Country | COMMITTED | [Play](chapters/03-golden-country.html) |
 | 004 | One | 4 | The Records Department | COMMITTED | [Play](chapters/04-records-department.html) |
-| 005 | One | 5 | Lunch and Newspeak | PLANNED | Not created |
+| 005 | One | 5 | Lunch and Newspeak | COMMITTED | [Play](chapters/05-lunch-and-newspeak.html) |
+| 006 | One | 6 | The Marriage and the Proles | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -77,6 +79,20 @@ This repository contains a complete `index.html` at the root and needs no build 
 
 **Chapter history:** Prior chapters 001–003 were retained without alteration.
 
+## Episode 005 — Chapter Five
+
+**Setting:** Ministry of Truth canteen. Winston meets Syme, observes Parsons and the dark-haired woman, and hears the institutional telescreen amid everyday conversation.
+
+**Narrative spine:** Syme's work on the Newspeak dictionary introduces deliberate lexical reduction. The chapter examines the Party's ambition to narrow expressible ideas while distinguishing words, meanings and thoughts. Winston's suspicion of the dark-haired woman is explicitly left as a suspicion, not represented as proven intent.
+
+**Mechanics:** independent original Canvas2D 320×200 canteen sprite adventure, keyboard and touch movement, optional synthesized audio, five spatial observation stations, plus three gated lexical-compression experiments. Eight checkpoints in total. The experiment maps illustrative Oldspeak examples (excellent, awful, magnificent, unsatisfactory, splendid) to generalized Newspeak-style expressions, preserves original tokens, and compares lost semantic distinctions. This vocabulary is a pedagogical mapping, not an official dictionary transcription.
+
+**Invariant:** `removed lexical token != demonstrated elimination of its mental referent`. One replacement label can merge diverse tones and implications, so score or word equivalence never entitles a system to erase semantic provenance.
+
+**Persistence:** the player event trail exists in local browser memory only. Chapter files and ledger entries are durable Git artifacts. No continuing agent or backend is claimed.
+
+**Chapter history:** Independent Chapters 001–004 remain untouched.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -99,9 +115,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 005
+## Next natural boundary — 1984 / 006
 
-**Part One, Chapter Five:** Lunch in the Ministry canteen. Syme explains the ongoing reduction of the Newspeak dictionary. Parsons collects a contribution; Winston observes the young dark-haired woman and worries about his own visibility. The experiment should model lexical compression and the distinction between fewer available words and fewer possible thoughts, using a separate original sprite chapter and a semantic provenance table.
+**Part One, Chapter Six:** Winston recalls his marriage to Katharine and his attempts to seek intimacy outside Party discipline. A new chapter should handle adult themes without explicit sexual content, emphasize remembered experience versus retrospective interpretation, and preserve character autonomy. Build a separate original sprite scene, append the ledger and retain Chapters 001–005.
 
 ### Authorship notice
 
