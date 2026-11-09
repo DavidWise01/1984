@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–22 committed; Parts One and Two complete, Part Three Chapters One–Four committed, and two chapters remain planned.
+**Status:** Chapters 01–23 committed; Parts One and Two complete, Part Three Chapters One–Five committed, and one chapter remains planned.
 
 ## Play
 
@@ -30,6 +30,7 @@
 - [Chapter 20 — The Logic of Power: four fingers, authority claims and evidence comparison](chapters/20-logic-of-power.html)
 - [Chapter 21 — The Shape of Power: bounded present control versus claimed permanence](chapters/21-shape-of-power.html)
 - [Chapter 22 — The Last Private Thought: verbal compliance and remembered attachment](chapters/22-last-private-thought.html)
+- [Chapter 23 — Room 101: personalized fear, coerced betrayal and witness audit](chapters/23-room-101.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -67,7 +68,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 020 | Three | 2 | The Logic of Power | COMMITTED | [Play and view comic](chapters/20-logic-of-power.html) |
 | 021 | Three | 3 | The Shape of Power | COMMITTED | [Play and view comic](chapters/21-shape-of-power.html) |
 | 022 | Three | 4 | The Last Private Thought | COMMITTED | [Play and view comic](chapters/22-last-private-thought.html) |
-| 023 | Three | 5 | Room 101 | PLANNED | Not created |
+| 023 | Three | 5 | Room 101 | COMMITTED | [Play and view comic](chapters/23-room-101.html) |
+| 024 | Three | 6 | The Chestnut Tree | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -358,6 +360,24 @@ RULE: T1 must not overwrite T2 or be promoted to proof of T3.
 
 **Persistence:** Previous chapter artifacts 001–021 remain unchanged. Playing the game creates a session-only journal; release assets and the ledger are permanently versioned in Git.
 
+## Episode 023 — Part Three, Chapter Five: Room 101
+
+**Narrative:** O’Brien takes Winston to Room 101, where the Party uses a fear designed specifically for him. Winston calls for harm to be transferred to Julia rather than himself. This is a devastating betrayal, but the forced circumstances must remain attached to the observation; it is not an unconstrained decision.
+
+**Original playable sprite comic:** [Chapter 023](chapters/23-room-101.html) is a standalone non-graphic 320×200 Canvas2D game featuring a numbered door, a symbolic threat apparatus, and the resulting separation. Six inspectable spatial witnesses plus comparison/seal gates comprise eight checkpoints. Keyboard/touch controls, optional sound, a local event log, and three original cartoon panels are included. The [homepage](index.html#cartoons) displays three independently rendered pixel-cartoon panels for this release.
+
+**Natural invariant:**
+```text
+T1 [control]  : Room 101 and the fear threat are imposed by captors
+T2 [context]  : Winston faces overwhelming terror
+T3 [utterance]: he calls for the threat to be redirected toward Julia
+RULE: T3 is recorded without pretending Winston was free of T1 and T2
+```
+
+**Interpretation:** A coerced betrayal remains an actual betrayal in the story, but it cannot serve as evidence of freely chosen intent without independent support. The chapter avoids showing explicit harm or teaching methods of coercion.
+
+**Preservation:** Releases 001–022 remain unchanged. The play log is local browser state; source files, gallery and canonical ledger are committed in Git.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -380,9 +400,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 023
+## Next natural boundary — 1984 / 024
 
-**Part Three, Chapter Five:** In Room 101, Winston faces his most personal fear and is pushed toward betraying Julia. The next sprite-comic should handle the coercion without graphic imagery, recording threatened harm, a compelled betrayal and the limits of conclusions about unpressured choice. Preserve previous witnesses and keep the story source-aligned.
+**Part Three, Chapter Six:** Winston is released and spends time in the Chestnut Tree Café. He meets Julia again, and both admit betraying one another. The novel ends with Winston's transformed attitude toward Big Brother. The final illustrated sprite chapter should preserve the chronological distinction between earlier attachments, the coerced betrayals and the later observed outcome, without rewriting the witnesses of previous chapters. The 24-chapter edition should close with an appendix-style canonical audit.
 
 ### Superseded Chapter 015 forecast — chronology correction
 
