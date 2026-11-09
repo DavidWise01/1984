@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–12 committed; Part One complete, Part Two Chapters 01–04 committed, and 12 chapters remain planned.
+**Status:** Chapters 01–13 committed; Part One complete, Part Two Chapters 01–05 committed, and 11 chapters remain planned.
 
 ## Play
 
@@ -20,6 +20,7 @@
 - [Chapter 10 — The Golden Country Rendezvous: playable sprite cartoon](chapters/10-golden-country-rendezvous.html)
 - [Chapter 11 — Meetings and Memories: church ruins, three illustrated panels](chapters/11-meetings-and-memories.html)
 - [Chapter 12 — The Hidden Room: playable sprite and three illustrated panels](chapters/12-hidden-room.html)
+- [Chapter 13 — The Vanishing Comrade: Syme, Hate Week, and sprite comic](chapters/13-vanishing-comrade.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -47,7 +48,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 010 | Two | 2 | The Golden Country Rendezvous | COMMITTED | [Play and read comic](chapters/10-golden-country-rendezvous.html) |
 | 011 | Two | 3 | Meetings and Memories | COMMITTED | [Play and view comic](chapters/11-meetings-and-memories.html) |
 | 012 | Two | 4 | The Hidden Room | COMMITTED | [Play and view comic](chapters/12-hidden-room.html) |
-| 013 | Two | 5 | The Vanishing Comrade | PLANNED | Not created |
+| 013 | Two | 5 | The Vanishing Comrade | COMMITTED | [Play and view comic](chapters/13-vanishing-comrade.html) |
+| 014 | Two | 6 | O’Brien’s Invitation | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -194,6 +196,16 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 
 **Persistence:** Chapter files 001–011 preserved. Session event logs are not falsely represented as permanent Git commits; only the release artifacts and README persist through Git history.
 
+## Episode 013 — Part Two, Chapter Five: The Vanishing Comrade
+
+**Narrative:** Syme disappears from normal public life while Hate Week propaganda intensifies. Winston continues seeing Julia in private and reflects on the difficulty of reconciling published records with lived experience.
+
+**Playable sprite and comic:** Independent original 320×200 Canvas2D episode, three scenes (empty seat in canteen, Hate Week preparations, private memory), six spatial observations plus evidence comparison and seal (eight checkpoints), optional sound and keyboard/touch controls. The chapter contains three original embedded cartoon panels and the [GitHub Pages homepage](index.html#cartoons) displays three corresponding original Canvas2D sprite comics.
+
+**Invariant:** `erased public record != nonexistence`; `absence != verified fate`. Winston's recollection of speaking with Syme is distinct from the Party's public record, while exact details of his fate remain unverified within the interactive scenario.
+
+**Persistence:** All prior chapter HTML artifacts remain unmodified. The player interaction log is session-local; the release, gallery and ledger persist in Git.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -216,9 +228,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 013
+## Next natural boundary — 1984 / 014
 
-**Part Two, Chapter Five:** Syme disappears from public life; preparations for Hate Week grow, and Julia and Winston discuss the Party's claims and their own futures. The next sprite-comic should model a vanishing public record as different from verified knowledge about a person's fate, preserving the distinction between observation and inference.
+**Part Two, Chapter Six:** O’Brien invites Winston to visit his home under the pretext of discussing Newspeak, and Winston reads the encounter as a possible signal of opposition. The next sprite-comic should distinguish a spoken invitation and observable conduct from presumed political allegiance, while continuing a verifiable GitHub Pages release.
 
 ### Superseded planning note — historical provenance
 
