@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–16 committed; Part One complete, Part Two Chapters 01–08 committed, and eight chapters remain planned.
+**Status:** Chapters 01–17 committed; Part One complete, Part Two Chapters 01–09 committed, and seven chapters remain planned.
 
 ## Play
 
@@ -24,6 +24,7 @@
 - [Chapter 14 — O’Brien’s Invitation: Newspeak pretext and sprite comic](chapters/14-obriens-invitation.html)
 - [Chapter 15 — The Human Gesture: childhood memory and care](chapters/15-human-gesture.html)
 - [Chapter 16 — The Brotherhood Visit: O’Brien, the switched-off telescreen and three comic panels](chapters/16-brotherhood-visit.html)
+- [Chapter 17 — The Changed Enemy: Hate Week switch, rewritten records, and chronology audit](chapters/17-changed-enemy.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -55,7 +56,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 014 | Two | 6 | O’Brien’s Invitation | COMMITTED | [Play and view comic](chapters/14-obriens-invitation.html) |
 | 015 | Two | 7 | The Human Gesture | COMMITTED | [Play and view comic](chapters/15-human-gesture.html) |
 | 016 | Two | 8 | The Brotherhood Visit | COMMITTED | [Play and view comic](chapters/16-brotherhood-visit.html) |
-| 017 | Two | 9 | The Changed Enemy | PLANNED | Not created |
+| 017 | Two | 9 | The Changed Enemy | COMMITTED | [Play and view comic](chapters/17-changed-enemy.html) |
+| 018 | Two | 10 | The Room Betrayed | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -242,6 +244,24 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 
 **Preservation:** The existing chapters 001–015 remain unchanged; browser interaction events are not permanent Git history. Commit the chapter, homepage and ledger independently and verify each SHA and Pages deployment status.
 
+## Episode 017 — Part Two, Chapter Nine: The Changed Enemy
+
+**Narrative:** A Hate Week speech changes Oceania's declared enemy from Eurasia to Eastasia in midstream. Ministry workers replace records so the new assertion appears to have been true all along. Winston subsequently studies a forbidden book attributed to Goldstein; its theory of Party power is another source to evaluate, not automatically a neutral authority.
+
+**Interactive sprite comic:** [Chapter 017](chapters/17-changed-enemy.html) has three original 320×200 Canvas2D scenes (rally, Records Department, book), six spatial witnesses, two evidence audit gates, WASD/arrow/touch movement, optional sound, local event chronology, and three embedded cartoon panels. [GitHub Pages homepage](index.html#cartoons) features three original related pixel-cartoon panels and links to the chapter.
+
+**Version invariant:**
+
+```text
+T1 : Party publishes "enemy Eurasia" [time-indexed prior claim]
+T2 : Party changes declared enemy to Eastasia [later directive]
+T3 : Party publishes "always Eastasia" [retrospective rewrite]
+RULE: T3 must append after T2; never replace T1 in the witness ledger.
+CAUTION: these are claims by the Party and their contradiction; none alone certifies the independent history of military events.
+```
+
+**Preservation:** Earlier chapter releases 001–016 unchanged. Session-specific observations are local to the browser; the immutable chapter artifact and canonical README persist via Git.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -264,9 +284,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 017
+## Next natural boundary — 1984 / 018
 
-**Part Two, Chapter Nine:** During Hate Week the Party's declared enemy abruptly changes. Winston and other workers scramble to alter every record as if the new political account had always been true. Winston then reads Goldstein's book. The next sprite-comic should preserve the chronological difference between an earlier announcement, a later switch, and subsequent rewritten records; it should not treat propaganda as independent evidence.
+**Part Two, Chapter Ten:** Winston and Julia are discovered in the room above the antique shop, revealing the danger of the privacy they assumed. The next sprite-comic should preserve earlier observations of apparent security alongside the later disconfirmation; do not pretend Winston had observed hidden surveillance before its discovery.
 
 ### Superseded Chapter 015 forecast — chronology correction
 
