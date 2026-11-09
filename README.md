@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–19 committed; Parts One and Two complete, Part Three Chapter One committed, and five chapters remain planned.
+**Status:** Chapters 01–20 committed; Parts One and Two complete, Part Three Chapters One–Two committed, and four chapters remain planned.
 
 ## Play
 
@@ -27,6 +27,7 @@
 - [Chapter 17 — The Changed Enemy: Hate Week switch, rewritten records, and chronology audit](chapters/17-changed-enemy.html)
 - [Chapter 18 — The Room Betrayed: hidden surveillance and append-only disconfirmation](chapters/18-room-betrayed.html)
 - [Chapter 19 — The Ministry of Love: detention, coerced speech and three cartoon pages](chapters/19-ministry-of-love.html)
+- [Chapter 20 — The Logic of Power: four fingers, authority claims and evidence comparison](chapters/20-logic-of-power.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -61,7 +62,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 017 | Two | 9 | The Changed Enemy | COMMITTED | [Play and view comic](chapters/17-changed-enemy.html) |
 | 018 | Two | 10 | The Room Betrayed | COMMITTED | [Play and view comic](chapters/18-room-betrayed.html) |
 | 019 | Three | 1 | The Ministry of Love | COMMITTED | [Play and view comic](chapters/19-ministry-of-love.html) |
-| 020 | Three | 2 | The Logic of Power | PLANNED | Not created |
+| 020 | Three | 2 | The Logic of Power | COMMITTED | [Play and view comic](chapters/20-logic-of-power.html) |
+| 021 | Three | 3 | The Shape of Power | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -296,6 +298,25 @@ RULE: append new knowledge, never rewrite earlier perception as foresight
 
 **Preservation:** Existing chapter files 001–018 unchanged. The game's observation ledger is local to the browser session. Durable records are the chapter HTML, GitHub Pages homepage and README ledger.
 
+## Episode 020 — Part Three, Chapter Two: The Logic of Power
+
+**Narrative:** O’Brien interrogates Winston in the Ministry of Love. An apparently simple demonstration of four fingers becomes a dispute between direct perception, authoritative assertion and the pressured answer Winston is expected to supply. The chapter remains non-graphic, focusing on evidence and coercion rather than simulating harm.
+
+**Interactive artifact:** [Chapter 020](chapters/20-logic-of-power.html) is an independent original 320×200 Canvas2D game with a questioning room, finger demonstration and evidence audit. It includes six spatial witnesses, comparison/seal gates, optional synthesized sound, keyboard/touch movement and three embedded original pixel-cartoon panels. Three additional original cartoon illustrations appear in the [homepage gallery](index.html#cartoons), linking directly to the game.
+
+**Natural invariant:**
+
+```text
+T1 [observed] : four fingers demonstrated
+T2 [asserted] : a different answer is demanded
+T3 [coerced]  : an answer might be supplied under pressure
+RULE : T3 does not supersede T1; neither T2 nor T3 independently proves a count
+```
+
+**Provenance:** Direct observation is not interchangeable with a claim from a powerful person, and an answer extracted under duress is not evidence of freely held conviction. The chapter records each source distinctly.
+
+**Persistence:** Previous chapter HTML artifacts 001–019 remain unchanged. The playable event log is ephemeral session state, while the chapter source, illustrated homepage and README release ledger are preserved in Git.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -318,9 +339,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 020
+## Next natural boundary — 1984 / 021
 
-**Part Three, Chapter Two:** O’Brien takes control of Winston's interrogation and challenges his understanding of reality and political power. The next sprite-comic should distinguish what a person can directly perceive, what an authority asserts, and what is stated under coercion. Keep the chapter non-graphic and preserve the witness lineage.
+**Part Three, Chapter Three:** O’Brien explains the Party’s conception of power, and Winston challenges its claims about permanent control and human nature. The next sprite comic should distinguish a theory of power from established facts, and test whether an imposed worldview constitutes independent evidence. Preserve the chronological witness trail.
 
 ### Superseded Chapter 015 forecast — chronology correction
 
