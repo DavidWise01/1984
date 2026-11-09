@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–09 committed; Part One complete and Part Two underway. 15 further chapters remain planned, not yet authored.
+**Status:** Chapters 01–10 committed; Part One complete, Part Two Chapters 01–02 committed, and 14 further chapters remain planned, not yet authored.
 
 ## Play
 
@@ -17,6 +17,7 @@
 - [Chapter 07 — The Proles and the Photograph](chapters/07-proles-and-photograph.html)
 - [Chapter 08 — The Antique Shop: playable sprites + embedded cartoon pages](chapters/08-antique-shop.html)
 - [Chapter 09 — The Secret Note: three playable scenes + cartoon pages](chapters/09-secret-note.html)
+- [Chapter 10 — The Golden Country Rendezvous: playable sprite cartoon](chapters/10-golden-country-rendezvous.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -41,7 +42,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 007 | One | 7 | The Proles and the Photograph | COMMITTED | [Play](chapters/07-proles-and-photograph.html) |
 | 008 | One | 8 | The Antique Shop | COMMITTED | [Play + read comic](chapters/08-antique-shop.html) |
 | 009 | Two | 1 | The Secret Note | COMMITTED | [Play and read comic](chapters/09-secret-note.html) |
-| 010 | Two | 2 | The Golden Country Rendezvous | PLANNED | Not created |
+| 010 | Two | 2 | The Golden Country Rendezvous | COMMITTED | [Play and read comic](chapters/10-golden-country-rendezvous.html) |
+| 011 | Two | 3 | The Hidden Room | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -154,6 +156,20 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 
 **Preservation:** Part One chapters 001–008 remain separate; event log exists only in the current browser session. No long copyrighted text reproduced.
 
+## Episode 010 — Part Two, Chapter Two
+
+**Setting:** countryside station → wooded path → sunlit clearing.
+
+**Literary spine:** Winston travels to an arranged countryside meeting with Julia. Their personal connection challenges daily Party controls, but secluded surroundings do not guarantee freedom from surveillance. Intimacy is represented without explicit scenes, and without confusing one character's inference with another's unspoken thoughts.
+
+**Playable HTML:** [Chapter 010](chapters/10-golden-country-rendezvous.html) contains an original 320×200 Canvas2D sprite adventure with three scenes, six spatial observations, two comparison/seal gates, arrow/WASD and touch controls, optional synthesized sound, and three illustrated comic-cartoon panels.
+
+**GitHub Pages cartoons:** The root [cartoon gallery](index.html#cartoons) shows three corresponding directly rendered original Canvas2D panels, each linking to the full playable chapter. Pages auto-publishes on every relevant `main` push through the existing workflow. The release does not depend on externally sourced pictures.
+
+**Invariant:** `shared trust != verified privacy`. Meeting, conversation and risk are separate evidence categories; neither a poem-like landscape nor affection makes surveillance physically impossible.
+
+**Historical preservation:** Chapter 001–009 files remain unchanged. Player progress is session-local; Git commits are the durable record.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -176,9 +192,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 010
+## Next natural boundary — 1984 / 011
 
-**Part Two, Chapter Two:** Winston reaches a secluded meeting in the countryside with the dark-haired woman. The next cartoon-sprite chapter should explore genuine personal connection versus presumed surveillance-free space, preserve the difference between observation and trust, and continue the git/GitHub Pages release workflow.
+**Part Two, Chapter Three:** Winston and Julia begin making repeated contact, including the private room over Mr. Charrington's shop. The next illustrated sprite chapter should examine a perceived sanctuary, material comforts, privacy, and the difference between a relationship that is genuinely chosen and the continued risk of detection. Commit the new file, update the root cartoon gallery and archive, append this ledger, and verify the Pages deployment.
 
 ### Authorship notice
 
