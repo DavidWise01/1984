@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–14 committed; Part One complete, Part Two Chapters 01–06 committed, and 10 chapters remain planned.
+**Status:** Chapters 01–15 committed; Part One complete, Part Two Chapters 01–07 committed, and nine chapters remain planned.
 
 ## Play
 
@@ -22,6 +22,7 @@
 - [Chapter 12 — The Hidden Room: playable sprite and three illustrated panels](chapters/12-hidden-room.html)
 - [Chapter 13 — The Vanishing Comrade: Syme, Hate Week, and sprite comic](chapters/13-vanishing-comrade.html)
 - [Chapter 14 — O’Brien’s Invitation: Newspeak pretext and sprite comic](chapters/14-obriens-invitation.html)
+- [Chapter 15 — The Human Gesture: childhood memory and care](chapters/15-human-gesture.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -51,7 +52,9 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 012 | Two | 4 | The Hidden Room | COMMITTED | [Play and view comic](chapters/12-hidden-room.html) |
 | 013 | Two | 5 | The Vanishing Comrade | COMMITTED | [Play and view comic](chapters/13-vanishing-comrade.html) |
 | 014 | Two | 6 | O’Brien’s Invitation | COMMITTED | [Play and view comic](chapters/14-obriens-invitation.html) |
-| 015 | Two | 7 | The Changed Enemy | PLANNED | Not created |
+| 015 | Two | 7 | The Human Gesture | COMMITTED | [Play and view comic](chapters/15-human-gesture.html) |
+| 016 | Two | 8 | The Brotherhood Visit | PLANNED | Not created |
+| 017 | Two | 9 | The Changed Enemy | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -218,6 +221,16 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 
 **Persistence:** All previous chapter files 001–013 remain independent; player events are only stored in browser session state. Git preserves the release files and chronological ledger.
 
+## Episode 015 — Part Two, Chapter Seven: The Human Gesture
+
+**Source-sequence correction:** The prior boundary plan erroneously placed the change of Oceania's enemy during Hate Week in Part Two, Chapter Seven. Standard chapter summaries place the enemy reversal in **Part Two, Chapter Nine**. Part Two, Chapter Seven concerns Winston's dream of his mother and memories of stealing his sister's chocolate, followed by his discussion with Julia about loyalty, vulnerability, and human feelings. The mistaken Chapter 015 forecast remains below as superseded planning history rather than being silently erased.
+
+**Story and playable art:** The [Chapter 015 sprite comic](chapters/15-human-gesture.html) explores a childhood shelter, his mother's gesture of care and an upstairs-room conversation with Julia. It contains three original illustrated Canvas2D comic panels, a three-scene 320×200 sprite game, optional sound, WASD/arrow/touch movement, six observation witnesses, and comparison/seal gates (eight checkpoints). The [homepage](index.html#cartoons) features three matching original cartoon-sprite panels.
+
+**Invariant:** `remembered action != verified full consequence`; `personal guilt != proof of causal responsibility`; `coerced speech != proven freely held belief`. The childhood memory is emotionally important without claiming to resolve his mother and sister's precise fate.
+
+**Lineage:** Chapters 001–014 retained as separate immutable HTML releases. Game observations exist only in the current browser session; release files and the chronology correction are committed in Git.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -240,9 +253,13 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 015
+## Next natural boundary — 1984 / 016
 
-**Part Two, Chapter Seven:** The enemy in a Hate Week speech abruptly changes, and workers at the Ministry must revise published material to present the new alliance as if it had always been the case. The next sprite-comic should preserve a time-ordered account of the public switch and the later rewritten record, distinguishing external announcements from historical evidence.
+**Part Two, Chapter Eight:** Winston and Julia visit O’Brien’s apartment, where he switches off the telescreen and appears to receive their political confidence. The next illustrated sprite adventure should distinguish a demonstrable switched-off device and O’Brien’s statements from independently verified trustworthiness. The chronology then advances to Part Two, Chapter Nine for the enemy reversal and Goldstein book.
+
+### Superseded Chapter 015 forecast — chronology correction
+
+The earlier proposal placed the Hate Week enemy change in Chapter 015 / Part Two, Chapter Seven. The event belongs to Part Two, Chapter Nine. It has been reserved for Chapter 017, while Chapter 015 follows Winston’s memories of his mother and Chapter 016 will follow the visit to O’Brien.
 
 ### Superseded planning note — historical provenance
 
