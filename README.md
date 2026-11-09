@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–21 committed; Parts One and Two complete, Part Three Chapters One–Three committed, and three chapters remain planned.
+**Status:** Chapters 01–22 committed; Parts One and Two complete, Part Three Chapters One–Four committed, and two chapters remain planned.
 
 ## Play
 
@@ -29,6 +29,7 @@
 - [Chapter 19 — The Ministry of Love: detention, coerced speech and three cartoon pages](chapters/19-ministry-of-love.html)
 - [Chapter 20 — The Logic of Power: four fingers, authority claims and evidence comparison](chapters/20-logic-of-power.html)
 - [Chapter 21 — The Shape of Power: bounded present control versus claimed permanence](chapters/21-shape-of-power.html)
+- [Chapter 22 — The Last Private Thought: verbal compliance and remembered attachment](chapters/22-last-private-thought.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -65,7 +66,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 019 | Three | 1 | The Ministry of Love | COMMITTED | [Play and view comic](chapters/19-ministry-of-love.html) |
 | 020 | Three | 2 | The Logic of Power | COMMITTED | [Play and view comic](chapters/20-logic-of-power.html) |
 | 021 | Three | 3 | The Shape of Power | COMMITTED | [Play and view comic](chapters/21-shape-of-power.html) |
-| 022 | Three | 4 | The Last Private Thought | PLANNED | Not created |
+| 022 | Three | 4 | The Last Private Thought | COMMITTED | [Play and view comic](chapters/22-last-private-thought.html) |
+| 023 | Three | 5 | Room 101 | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -337,6 +339,25 @@ RULE: evidence at T1 does not establish the infinite-duration claim T2
 
 **Persistence:** Earlier chapters 001–020 remain unmodified. Play-session witness events remain local; permanent files are the chapter, homepage and ledger.
 
+## Episode 022 — Part Three, Chapter Four: The Last Private Thought
+
+**Narrative:** Winston is recovering during his continued captivity. He practices the Party's approved answers, while privately remembering Julia and resisting the loss of his remaining attachment. An outwardly correct answer does not establish a voluntary belief; a present private feeling does not guarantee its survival under continued coercion.
+
+**Interactive sprite comic:** [Chapter 022](chapters/22-last-private-thought.html) includes three standalone 320×200 Canvas2D scenes (recovery cell, practiced answers, remembered Julia); six inspectable witnesses, a comparison checkpoint and an uncertainty seal. Keyboard, touch controls, optional sound, an append-only local event sequence and three embedded original cartoon panels are included. The [homepage](index.html#cartoons) independently draws three corresponding illustrated pixel panels.
+
+**Natural invariant:**
+
+```text
+T1 [observable]   : approved answers spoken under institutional control
+T2 [experienced]  : a private attachment to Julia remains for Winston
+T3 [unverified]   : voluntary conviction and future persistence
+RULE: T1 must not overwrite T2 or be promoted to proof of T3.
+```
+
+**Boundary:** Internal experience and external testimony are not interchangeable, while an observed emotional response cannot certify immunity to further coercion.
+
+**Persistence:** Previous chapter artifacts 001–021 remain unchanged. Playing the game creates a session-only journal; release assets and the ledger are permanently versioned in Git.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -359,9 +380,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 022
+## Next natural boundary — 1984 / 023
 
-**Part Three, Chapter Four:** Winston recovers enough to think privately of Julia and to resist the Party's attempt to govern his feelings, even as he begins to repeat some official answers. The next sprite chapter should distinguish verbal compliance, remembered attachment and voluntary conviction; preserve the observed timeline without claiming certainty about another person's internal experience.
+**Part Three, Chapter Five:** In Room 101, Winston faces his most personal fear and is pushed toward betraying Julia. The next sprite-comic should handle the coercion without graphic imagery, recording threatened harm, a compelled betrayal and the limits of conclusions about unpressured choice. Preserve previous witnesses and keep the story source-aligned.
 
 ### Superseded Chapter 015 forecast — chronology correction
 
