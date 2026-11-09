@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–17 committed; Part One complete, Part Two Chapters 01–09 committed, and seven chapters remain planned.
+**Status:** Chapters 01–18 committed; Parts One and Two complete, and six chapters in Part Three remain planned.
 
 ## Play
 
@@ -25,6 +25,7 @@
 - [Chapter 15 — The Human Gesture: childhood memory and care](chapters/15-human-gesture.html)
 - [Chapter 16 — The Brotherhood Visit: O’Brien, the switched-off telescreen and three comic panels](chapters/16-brotherhood-visit.html)
 - [Chapter 17 — The Changed Enemy: Hate Week switch, rewritten records, and chronology audit](chapters/17-changed-enemy.html)
+- [Chapter 18 — The Room Betrayed: hidden surveillance and append-only disconfirmation](chapters/18-room-betrayed.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -57,7 +58,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 015 | Two | 7 | The Human Gesture | COMMITTED | [Play and view comic](chapters/15-human-gesture.html) |
 | 016 | Two | 8 | The Brotherhood Visit | COMMITTED | [Play and view comic](chapters/16-brotherhood-visit.html) |
 | 017 | Two | 9 | The Changed Enemy | COMMITTED | [Play and view comic](chapters/17-changed-enemy.html) |
-| 018 | Two | 10 | The Room Betrayed | PLANNED | Not created |
+| 018 | Two | 10 | The Room Betrayed | COMMITTED | [Play and view comic](chapters/18-room-betrayed.html) |
+| 019 | Three | 1 | The Ministry of Love | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -262,6 +264,26 @@ CAUTION: these are claims by the Party and their contradiction; none alone certi
 
 **Preservation:** Earlier chapter releases 001–016 unchanged. Session-specific observations are local to the browser; the immutable chapter artifact and canonical README persist via Git.
 
+## Episode 018 — Part Two, Chapter Ten: The Room Betrayed
+
+**Story:** Winston and Julia return to the upstairs room above Mr. Charrington's shop. A hidden telescreen speaks from behind a picture. Thought Police enter, the paperweight breaks, and Charrington's connection to the police is revealed. The false sense of a sanctuary collapses.
+
+**Sprite-comic:** [Chapter 018](chapters/18-room-betrayed.html) is a standalone original 320×200 Canvas2D game with three scenes (apparent refuge, revealed telescreen, police entry), six inspectable spatial observations and two compare/seal gates (eight checkpoints). Keyboard/touch movement, optional sound, three embedded pixel-cartoon panels and a chronological interpretation ledger are included. The [GitHub Pages homepage](index.html#cartoons) displays three new original illustrated panels linking to the chapter.
+
+**Natural invariant:**
+```text
+T1 OBSERVED: no telescreen was visible in the room
+T1 INFERRED: the room was private
+T2 OBSERVED: surveillance device revealed behind picture
+T3 OBSERVED: police entry, Charrington's hidden role
+RESULT: T1 observation preserved; T1 inference superseded
+RULE: append new knowledge, never rewrite earlier perception as foresight
+```
+
+**Evidence policy:** The later confirmation of hidden monitoring does not justify rewriting Winston's earlier observation as though he could see the device all along. His mistaken trust and the now-visible betrayal are explicitly separated.
+
+**Persistence:** Chapters 001–017 remain separate artifacts. The player's in-browser event log is session-local, while the chapter, gallery and canonical ledger are committed in Git.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -284,9 +306,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 018
+## Next natural boundary — 1984 / 019
 
-**Part Two, Chapter Ten:** Winston and Julia are discovered in the room above the antique shop, revealing the danger of the privacy they assumed. The next sprite-comic should preserve earlier observations of apparent security alongside the later disconfirmation; do not pretend Winston had observed hidden surveillance before its discovery.
+**Part Three, Chapter One:** Winston is detained inside the Ministry of Love. The next illustrated sprite chapter should contrast institutional testimony, isolation and coercion with reliable first-hand observations; it must not treat a forced answer as proof of sincere belief. Publish the sprite and cartoon pages and preserve all earlier releases.
 
 ### Superseded Chapter 015 forecast — chronology correction
 
