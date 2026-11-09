@@ -3,12 +3,13 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapter 01 committed; 23 further chapters remain planned, not yet authored.
+**Status:** Chapters 01–02 committed; 22 further chapters remain planned, not yet authored.
 
 ## Play
 
 - [Arcade landing page](index.html)
 - [Chapter 01 — The Unwritten Page](chapters/01-the-unwritten-page.html)
+- [Chapter 02 — The Knock at the Door](chapters/02-knock-at-door.html)
 - GitHub Pages target URL (only after Pages is enabled): `https://davidwise01.github.io/1984/`
 
 ### GitHub Pages deployment
@@ -20,7 +21,8 @@ This repository contains a complete `index.html` at the root and needs no build 
 | Release | Part | Chapter | Original sprite episode | State | Artifact |
 |---|---|---|---|---|---|
 | 001 | One | 1 | The Unwritten Page | COMMITTED | [Play](chapters/01-the-unwritten-page.html) |
-| 002 | One | 2 | The Knock at the Door | PLANNED | Not created |
+| 002 | One | 2 | The Knock at the Door | COMMITTED | [Play](chapters/02-knock-at-door.html) |
+| 003 | One | 3 | The Golden Country | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -32,6 +34,18 @@ This repository contains a complete `index.html` at the root and needs no build 
 **Objective:** inspect all five objects; the story registers them as observations and marks completion.  
 **Engine:** standalone Canvas2D 320×200, crisp nearest-neighbor upscale, pixel sprites, keyboard and touch controls, optional synthesized audio, no external dependencies.  
 **Creative principle:** original prose, dialogue, pixel art and UI; thematic plot summary only; no verbatim copyrighted chapter reproduction.
+
+## Episode 002 — Chapter Two
+
+**Setting:** Winston's flat → Victory Mansions corridor → Parsons apartment.
+
+**Narrative spine:** the diary is interrupted by a knock; Mrs. Parsons requests help with a broken sink; the children imitate Party suspicion and accusation. Winston observes that an official ideology can spread through everyday family relationships.
+
+**Interactive route:** inspect diary, answer door, cross corridor, inspect sink, talk with Mrs. Parsons, observe the children, reflect in corridor (six independent objectives; scene transitions through doors).
+
+**Mechanics:** standalone original Canvas2D 320×200, multi-room exploration, keyboard + touch, optional synthesizer sound, observation notebook, six checkpoint witnesses, completion marker, no external assets.
+
+**Boundary:** distinguish what a child actually says and does from inferences about motive or innate character. Observation is not accusation. Recorded events are local browser-session observations; canonical Git history is the durable release record.
 
 ## Governing kernel — instantiated
 
@@ -55,9 +69,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 002
+## Next natural boundary — 1984 / 003
 
-**Part One, Chapter Two:** a knock at Winston's door, Mrs. Parsons and her children, the ordinary domestic reach of Party discipline, and the new dangers created by a private diary. Build another self-contained `chapters/02-*.html` sprite chapter and append a separate ledger entry. Do not rewrite Chapter 01.
+**Part One, Chapter Three:** Winston's dreams of his mother and the Golden Country, memory as a fragile witness, waking to compulsory exercise and official commands. Build a new self-contained `chapters/03-*.html` sprite chapter, append its ledger entry, and retain the previous releases.
 
 ### Authorship notice
 
