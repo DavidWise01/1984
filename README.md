@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–23 committed; Parts One and Two complete, Part Three Chapters One–Five committed, and one chapter remains planned.
+**Status:** COMPLETE — all 24 standalone chapters committed; Part One 8, Part Two 10, Part Three 6. Final canonical audit published as a separate navigable artifact.
 
 ## Play
 
@@ -31,6 +31,8 @@
 - [Chapter 21 — The Shape of Power: bounded present control versus claimed permanence](chapters/21-shape-of-power.html)
 - [Chapter 22 — The Last Private Thought: verbal compliance and remembered attachment](chapters/22-last-private-thought.html)
 - [Chapter 23 — Room 101: personalized fear, coerced betrayal and witness audit](chapters/23-room-101.html)
+- [Chapter 24 — The Chestnut Tree: the final reunion and chronological seal](chapters/24-chestnut-tree.html)
+- [Complete canonical audit — all 24 playable chapters and preserved invariants](canonical-audit.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -69,7 +71,7 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 021 | Three | 3 | The Shape of Power | COMMITTED | [Play and view comic](chapters/21-shape-of-power.html) |
 | 022 | Three | 4 | The Last Private Thought | COMMITTED | [Play and view comic](chapters/22-last-private-thought.html) |
 | 023 | Three | 5 | Room 101 | COMMITTED | [Play and view comic](chapters/23-room-101.html) |
-| 024 | Three | 6 | The Chestnut Tree | PLANNED | Not created |
+| 024 | Three | 6 | The Chestnut Tree | COMMITTED | [Play finale and view comic](chapters/24-chestnut-tree.html) |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -378,6 +380,39 @@ RULE: T3 is recorded without pretending Winston was free of T1 and T2
 
 **Preservation:** Releases 001–022 remain unchanged. The play log is local browser state; source files, gallery and canonical ledger are committed in Git.
 
+## Episode 024 — Part Three, Chapter Six: The Chestnut Tree — FINALE
+
+**Story:** Winston has been released and lives a diminished public life in the Chestnut Tree Café. He meets Julia again; each admits betraying the other under the Party's threats. In the final scene, Winston's outlook has changed and the novel presents him accepting Big Brother. The earlier love, betrayal under coercion and subsequent transformation remain distinct chronological events.
+
+**Playable finale:** [Chapter 024](chapters/24-chestnut-tree.html) is an original standalone 320×200 Canvas2D sprite chapter with three scenes (Chestnut Tree Café, winter reunion, final posture), six inspection witnesses and comparison/seal gates (eight checkpoints), keyboard/touch movement, optional synthesized sound and three embedded illustrated panels. Three matching new cartoons are rendered directly on the [homepage](index.html#cartoons). The chapter includes a direct link to the [24-chapter canonical audit](canonical-audit.html).
+
+**Final invariant:**
+```text
+T1 EARLIER     Winston and Julia form a private attachment
+       |
+T2 COERCED     Both are made to betray one another
+       |
+T3 LATER       Their reunion shows changed feelings and conduct
+       |
+T4 ENDING      Winston's narrative allegiance changes
+       |
+       +------ CANONICAL SEAL ------+
+       | T4 cannot overwrite T1–T3 |
+       +----------------------------+
+```
+
+**Evidence boundary:** The ending is part of the narrative, but it is not evidence that the process transforming Winston was voluntary. The earlier relationship was real within the story at the time, and later states must not be used to retroactively falsify that earlier witness.
+
+**Final audit and release integrity:** [canonical-audit.html](canonical-audit.html) provides a navigable directory of all 24 chapter files, the 8 / 10 / 6 part split, a final time-indexed witness graph, source-type limitations and a precise explanation that Git commit history (not a browser-session log) supplies durable release provenance. The chapter source, homepage, audit and README are all independent static files.
+
+**Persistence:** Chapters 001–023 remain independent HTML artifacts and must not be modified without an explicitly documented correction. The project is marked COMPLETE for the original 24-chapter plan. Later changes, if made, should be revisions or supplementary research, not phantom extra chapters of Orwell's novel.
+
+## Canonical edition seal — releases 001–024
+
+The complete original interpretive sprite chronicle comprises 24 releases: eight chapters of Part One, ten of Part Two, six of Part Three. Each episode has a standalone chapter file, and chapters 008 onward include embedded original cartoon artwork, with the later chapters featuring three-panel comic galleries on the homepage. The existence of these assets is distinct from successful Pages deployment; verify the final GitHub Actions run before claiming the latest edition is live. Original chapter releases are separate historical artifacts; the README and homepage are updated as part of each new release.
+
+The governing witness rule remains: **observations are time-indexed, interpretations are labeled, coercion is retained as context, and later outcomes never silently overwrite earlier evidence.**
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -400,9 +435,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 024
+## Final natural boundary — 1984 / 024 · SEALED
 
-**Part Three, Chapter Six:** Winston is released and spends time in the Chestnut Tree Café. He meets Julia again, and both admit betraying one another. The novel ends with Winston's transformed attitude toward Big Brother. The final illustrated sprite chapter should preserve the chronological distinction between earlier attachments, the coerced betrayals and the later observed outcome, without rewriting the witnesses of previous chapters. The 24-chapter edition should close with an appendix-style canonical audit.
+**Part Three, Chapter Six is complete.** The chronicle ends at Chapter 024, with all 24 episodes committed, a playable final scene and a separate [canonical audit](canonical-audit.html). The core invariant is preserved: later transformation does not erase earlier experiences, and coerced behavior must remain labeled with its context. The next engineering work, if requested, is an integrity review or a new original project, not a chapter beyond the source novel.
 
 ### Superseded Chapter 015 forecast — chronology correction
 
