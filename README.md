@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–18 committed; Parts One and Two complete, and six chapters in Part Three remain planned.
+**Status:** Chapters 01–19 committed; Parts One and Two complete, Part Three Chapter One committed, and five chapters remain planned.
 
 ## Play
 
@@ -26,6 +26,7 @@
 - [Chapter 16 — The Brotherhood Visit: O’Brien, the switched-off telescreen and three comic panels](chapters/16-brotherhood-visit.html)
 - [Chapter 17 — The Changed Enemy: Hate Week switch, rewritten records, and chronology audit](chapters/17-changed-enemy.html)
 - [Chapter 18 — The Room Betrayed: hidden surveillance and append-only disconfirmation](chapters/18-room-betrayed.html)
+- [Chapter 19 — The Ministry of Love: detention, coerced speech and three cartoon pages](chapters/19-ministry-of-love.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -59,7 +60,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 016 | Two | 8 | The Brotherhood Visit | COMMITTED | [Play and view comic](chapters/16-brotherhood-visit.html) |
 | 017 | Two | 9 | The Changed Enemy | COMMITTED | [Play and view comic](chapters/17-changed-enemy.html) |
 | 018 | Two | 10 | The Room Betrayed | COMMITTED | [Play and view comic](chapters/18-room-betrayed.html) |
-| 019 | Three | 1 | The Ministry of Love | PLANNED | Not created |
+| 019 | Three | 1 | The Ministry of Love | COMMITTED | [Play and view comic](chapters/19-ministry-of-love.html) |
+| 020 | Three | 2 | The Logic of Power | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -284,6 +286,16 @@ RULE: append new knowledge, never rewrite earlier perception as foresight
 
 **Persistence:** Chapters 001–017 remain separate artifacts. The player's in-browser event log is session-local, while the chapter, gallery and canonical ledger are committed in Git.
 
+## Episode 019 — Part Three, Chapter One: The Ministry of Love
+
+**Narrative:** Winston is imprisoned in the Ministry of Love. Harsh lights, a controlled cell and encounters with prisoners including Parsons make the setting legible. Winston cannot verify how much time has passed or what happens beyond the guards' control. The language and behavior of prisoners are shaped by institutional threats.
+
+**Playable sprite comic:** [Chapter 019](chapters/19-ministry-of-love.html) opens Part Three with three original 320×200 Canvas2D scenes: white-tiled cell, other prisoners, guarded corridor. Six inspectable observations and compare/seal gates produce eight checkpoints. Arrow/WASD and touch movement, optional sound, local event log and three original comic panels are included. The [homepage gallery](index.html#cartoons) displays three independently drawn cartoon previews that lead to the full playable chapter.
+
+**Invariant:** `coerced utterance != freely held belief`; `observable compliance != confirmed private assent`. Prisoner testimony remains labeled with the coercive context. Statements in an oppressive setting may be recorded as events, but never promoted to reliable evidence of genuine conviction without independent corroboration.
+
+**Preservation:** Existing chapter files 001–018 unchanged. The game's observation ledger is local to the browser session. Durable records are the chapter HTML, GitHub Pages homepage and README ledger.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -306,9 +318,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 019
+## Next natural boundary — 1984 / 020
 
-**Part Three, Chapter One:** Winston is detained inside the Ministry of Love. The next illustrated sprite chapter should contrast institutional testimony, isolation and coercion with reliable first-hand observations; it must not treat a forced answer as proof of sincere belief. Publish the sprite and cartoon pages and preserve all earlier releases.
+**Part Three, Chapter Two:** O’Brien takes control of Winston's interrogation and challenges his understanding of reality and political power. The next sprite-comic should distinguish what a person can directly perceive, what an authority asserts, and what is stated under coercion. Keep the chapter non-graphic and preserve the witness lineage.
 
 ### Superseded Chapter 015 forecast — chronology correction
 
