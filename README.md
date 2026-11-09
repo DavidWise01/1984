@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–05 committed; 19 further chapters remain planned, not yet authored.
+**Status:** Chapters 01–06 committed; 18 further chapters remain planned, not yet authored.
 
 ## Play
 
@@ -13,6 +13,7 @@
 - [Chapter 03 — The Golden Country](chapters/03-golden-country.html)
 - [Chapter 04 — The Records Department](chapters/04-records-department.html)
 - [Chapter 05 — Lunch and Newspeak](chapters/05-lunch-and-newspeak.html)
+- [Chapter 06 — The Marriage and the Proles](chapters/06-marriage-and-proles.html)
 - GitHub Pages target URL (only after Pages is enabled): `https://davidwise01.github.io/1984/`
 
 ### GitHub Pages deployment
@@ -28,7 +29,8 @@ This repository contains a complete `index.html` at the root and needs no build 
 | 003 | One | 3 | The Golden Country | COMMITTED | [Play](chapters/03-golden-country.html) |
 | 004 | One | 4 | The Records Department | COMMITTED | [Play](chapters/04-records-department.html) |
 | 005 | One | 5 | Lunch and Newspeak | COMMITTED | [Play](chapters/05-lunch-and-newspeak.html) |
-| 006 | One | 6 | The Marriage and the Proles | PLANNED | Not created |
+| 006 | One | 6 | The Marriage and the Proles | COMMITTED | [Play](chapters/06-marriage-and-proles.html) |
+| 007 | One | 7 | The Proles and the Photograph | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -93,6 +95,16 @@ This repository contains a complete `index.html` at the root and needs no build 
 
 **Chapter history:** Independent Chapters 001–004 remain untouched.
 
+## Episode 006 — Chapter Six
+
+**Setting:** Winston's fragmented recollection of his marriage to Katharine, a Party registry, and a prole street.
+
+**Narrative spine:** the Party defines marriage through public obligation; Winston remembers estrangement and the attempt to find connection beyond sanctioned roles. This original adaptation treats adult relationships non-explicitly and does not claim access to Katharine's internal experience.
+
+**Mechanics:** original 320×200 pixel-art Canvas2D, three playable scenes, WASD/arrows and touch movement, optional sound, two inspections per scene, and a distinct agency comparison followed by a seal. Eight checkpoints.
+
+**Invariant:** `person != assigned role`; `Winston's memory != complete knowledge of Katharine's perspective`. Prior chapter HTML 001–005 retained unchanged.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -115,9 +127,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 006
+## Next natural boundary — 1984 / 007
 
-**Part One, Chapter Six:** Winston recalls his marriage to Katharine and his attempts to seek intimacy outside Party discipline. A new chapter should handle adult themes without explicit sexual content, emphasize remembered experience versus retrospective interpretation, and preserve character autonomy. Build a separate original sprite scene, append the ledger and retain Chapters 001–005.
+**Part One, Chapter Seven:** Winston reflects on the proles and the possibility of change, while a photograph of Jones, Aaronson and Rutherford once offered evidence contradicting the Party's official story. The sprite experiment should preserve a tangible witness separate from the current assertion, with observation and inference individually labeled. Append a new chapter without rewriting Chapters 001–006.
 
 ### Authorship notice
 
