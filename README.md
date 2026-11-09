@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–20 committed; Parts One and Two complete, Part Three Chapters One–Two committed, and four chapters remain planned.
+**Status:** Chapters 01–21 committed; Parts One and Two complete, Part Three Chapters One–Three committed, and three chapters remain planned.
 
 ## Play
 
@@ -28,6 +28,7 @@
 - [Chapter 18 — The Room Betrayed: hidden surveillance and append-only disconfirmation](chapters/18-room-betrayed.html)
 - [Chapter 19 — The Ministry of Love: detention, coerced speech and three cartoon pages](chapters/19-ministry-of-love.html)
 - [Chapter 20 — The Logic of Power: four fingers, authority claims and evidence comparison](chapters/20-logic-of-power.html)
+- [Chapter 21 — The Shape of Power: bounded present control versus claimed permanence](chapters/21-shape-of-power.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -63,7 +64,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 018 | Two | 10 | The Room Betrayed | COMMITTED | [Play and view comic](chapters/18-room-betrayed.html) |
 | 019 | Three | 1 | The Ministry of Love | COMMITTED | [Play and view comic](chapters/19-ministry-of-love.html) |
 | 020 | Three | 2 | The Logic of Power | COMMITTED | [Play and view comic](chapters/20-logic-of-power.html) |
-| 021 | Three | 3 | The Shape of Power | PLANNED | Not created |
+| 021 | Three | 3 | The Shape of Power | COMMITTED | [Play and view comic](chapters/21-shape-of-power.html) |
+| 022 | Three | 4 | The Last Private Thought | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -317,6 +319,24 @@ RULE : T3 does not supersede T1; neither T2 nor T3 independently proves a count
 
 **Persistence:** Previous chapter HTML artifacts 001–019 remain unchanged. The playable event log is ephemeral session state, while the chapter source, illustrated homepage and README release ledger are preserved in Git.
 
+## Episode 021 — Part Three, Chapter Three: The Shape of Power
+
+**Narrative:** O’Brien describes domination as the aim of the Party and claims that its rule can continue without end. Winston is shown his changed condition and hears an ambition to control the future. These experiences document power exercised in the present; they do not independently establish the Party's claim of permanent dominion.
+
+**Playable sprite comic:** [Chapter 021](chapters/21-shape-of-power.html) is an original 320×200 Canvas2D chapter spanning doctrine, reflection mirror and Party city. Six inspectable scene witnesses, comparison and seal gates (eight checkpoints), keyboard/touch movement, optional sound and three illustrated comic panels are embedded directly in the HTML. Three corresponding original pixel-art panels also appear on the [homepage](index.html#cartoons).
+
+**Invariant:**
+```text
+T1 [observed]  : O'Brien has extensive control in the present
+T2 [asserted]  : the Party will rule forever
+T3 [unknown]   : future events cannot be directly inspected
+RULE: evidence at T1 does not establish the infinite-duration claim T2
+```
+
+**Epistemic boundary:** A reported worldview is evidence that the speaker espouses it, not independent proof of its claims. A finite demonstration of control does not establish perpetual control or infallibility.
+
+**Persistence:** Earlier chapters 001–020 remain unmodified. Play-session witness events remain local; permanent files are the chapter, homepage and ledger.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -339,9 +359,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 021
+## Next natural boundary — 1984 / 022
 
-**Part Three, Chapter Three:** O’Brien explains the Party’s conception of power, and Winston challenges its claims about permanent control and human nature. The next sprite comic should distinguish a theory of power from established facts, and test whether an imposed worldview constitutes independent evidence. Preserve the chronological witness trail.
+**Part Three, Chapter Four:** Winston recovers enough to think privately of Julia and to resist the Party's attempt to govern his feelings, even as he begins to repeat some official answers. The next sprite chapter should distinguish verbal compliance, remembered attachment and voluntary conviction; preserve the observed timeline without claiming certainty about another person's internal experience.
 
 ### Superseded Chapter 015 forecast — chronology correction
 
