@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–08 committed; Part One complete. 16 further chapters in Parts Two and Three remain planned, not yet authored.
+**Status:** Chapters 01–09 committed; Part One complete and Part Two underway. 15 further chapters remain planned, not yet authored.
 
 ## Play
 
@@ -16,6 +16,7 @@
 - [Chapter 06 — The Marriage and the Proles](chapters/06-marriage-and-proles.html)
 - [Chapter 07 — The Proles and the Photograph](chapters/07-proles-and-photograph.html)
 - [Chapter 08 — The Antique Shop: playable sprites + embedded cartoon pages](chapters/08-antique-shop.html)
+- [Chapter 09 — The Secret Note: three playable scenes + cartoon pages](chapters/09-secret-note.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -39,7 +40,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 006 | One | 6 | The Marriage and the Proles | COMMITTED | [Play](chapters/06-marriage-and-proles.html) |
 | 007 | One | 7 | The Proles and the Photograph | COMMITTED | [Play](chapters/07-proles-and-photograph.html) |
 | 008 | One | 8 | The Antique Shop | COMMITTED | [Play + read comic](chapters/08-antique-shop.html) |
-| 009 | Two | 1 | The Secret Note | PLANNED | Not created |
+| 009 | Two | 1 | The Secret Note | COMMITTED | [Play and read comic](chapters/09-secret-note.html) |
+| 010 | Two | 2 | The Golden Country Rendezvous | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -140,6 +142,18 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 
 **GitHub Pages contract:** Each chapter release updates and verifies `index.html`, the new sprite/comic episode and this ledger; the existing [GitHub Actions workflow](.github/workflows/pages.yml) publishes the root site on pushes to `main`. A successful workflow run is distinguished from independent browser verification of the public URL.
 
+## Episode 009 — Part Two, Chapter One
+
+**Setting:** Ministry corridor → Ministry canteen → Victory Square public gathering.
+
+**Narrative spine:** After fearing the dark-haired woman's attention, Winston receives a brief private note during a corridor encounter. He is surprised by its affection and searches for a way to speak, culminating in tentative arrangements amid a crowded public space.
+
+**Sprite + cartoon delivery:** standalone original 320×200 Canvas2D arcade with three accessible locations, six distinct spatial observations, and comparison/seal gates for eight witness checkpoints. The [chapter HTML](chapters/09-secret-note.html) embeds three separately illustrated comic panels with descriptive captions. The [GitHub Pages homepage](index.html#cartoons) is updated with three matching new original cartoon-sprite illustrations and navigation into the episode.
+
+**Invariant:** `earlier suspicion != proven intention`; `message != certainty about every motive or safety`. The note is a genuine reason to revise a belief, while risks remain uncertain.
+
+**Preservation:** Part One chapters 001–008 remain separate; event log exists only in the current browser session. No long copyrighted text reproduced.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -162,9 +176,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 009
+## Next natural boundary — 1984 / 010
 
-**Part Two, Chapter One:** Winston receives a covert note from the dark-haired woman. His assumptions are interrupted by evidence of an unexpected personal message. The sprite-comic chapter should make observation, interpretation and uncertainty visible, keep its artwork directly on GitHub Pages, and preserve Part One as a complete eight-chapter sequence.
+**Part Two, Chapter Two:** Winston reaches a secluded meeting in the countryside with the dark-haired woman. The next cartoon-sprite chapter should explore genuine personal connection versus presumed surveillance-free space, preserve the difference between observation and trust, and continue the git/GitHub Pages release workflow.
 
 ### Authorship notice
 
