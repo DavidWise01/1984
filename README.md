@@ -35,6 +35,8 @@ This repository contains a complete `index.html` at the root and needs no build 
 
 ## Governing kernel — instantiated
 
+- [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
+
 ```
 | K | {{ | E | {{ | T }}}}
 
