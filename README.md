@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–11 committed; Part One complete, Part Two Chapters 01–03 committed, and 13 chapters remain planned.
+**Status:** Chapters 01–12 committed; Part One complete, Part Two Chapters 01–04 committed, and 12 chapters remain planned.
 
 ## Play
 
@@ -19,6 +19,7 @@
 - [Chapter 09 — The Secret Note: three playable scenes + cartoon pages](chapters/09-secret-note.html)
 - [Chapter 10 — The Golden Country Rendezvous: playable sprite cartoon](chapters/10-golden-country-rendezvous.html)
 - [Chapter 11 — Meetings and Memories: church ruins, three illustrated panels](chapters/11-meetings-and-memories.html)
+- [Chapter 12 — The Hidden Room: playable sprite and three illustrated panels](chapters/12-hidden-room.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -45,7 +46,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 009 | Two | 1 | The Secret Note | COMMITTED | [Play and read comic](chapters/09-secret-note.html) |
 | 010 | Two | 2 | The Golden Country Rendezvous | COMMITTED | [Play and read comic](chapters/10-golden-country-rendezvous.html) |
 | 011 | Two | 3 | Meetings and Memories | COMMITTED | [Play and view comic](chapters/11-meetings-and-memories.html) |
-| 012 | Two | 4 | The Hidden Room | PLANNED | Not created |
+| 012 | Two | 4 | The Hidden Room | COMMITTED | [Play and view comic](chapters/12-hidden-room.html) |
+| 013 | Two | 5 | The Vanishing Comrade | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -182,6 +184,16 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 
 **Invariant:** `reported experience != omniscient knowledge`; `secluded conversation != proven safety`; different witnesses are preserved as distinct accounts. Chapter 001–010 artifacts retained unchanged; browser interaction is session-local.
 
+## Episode 012 — Part Two, Chapter Four: The Hidden Room
+
+**Source-aligned setting:** Mr. Charrington's antique shop, stairs and rented upstairs room. Winston and Julia inhabit a private refuge with old furniture, food and other small comforts, including the glass paperweight. The absence of an obvious telescreen contributes to a dangerous feeling of security.
+
+**Interactive sprite art:** [Chapter 012](chapters/12-hidden-room.html) is an independent original 320×200 Canvas2D game with three scenes, two spatial witnesses per scene, comparison and sealing gates, eight objectives, keyboard/touch movement and optional sound. Three original cartoon panels are embedded inside the episode. The [GitHub Pages homepage](index.html#cartoons) independently shows three new illustrated pixel panels linked to the game, not merely text links.
+
+**Invariant:** `perceived privacy != independently verified security`; `comfort != political freedom`. The sight of an old object and private space does not establish that no surveillance mechanism exists.
+
+**Persistence:** Chapter files 001–011 preserved. Session event logs are not falsely represented as permanent Git commits; only the release artifacts and README persist through Git history.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -204,9 +216,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 012
+## Next natural boundary — 1984 / 013
 
-**Part Two, Chapter Four:** Winston rents the room above Mr. Charrington's shop. Julia brings small comforts, and the room becomes their private refuge. The next sprite-comic chapter should depict the paperweight, the upstairs room and the growing illusion of safety. Preserve the earlier chapters and validate the GitHub Pages deployment.
+**Part Two, Chapter Five:** Syme disappears from public life; preparations for Hate Week grow, and Julia and Winston discuss the Party's claims and their own futures. The next sprite-comic should model a vanishing public record as different from verified knowledge about a person's fate, preserving the distinction between observation and inference.
 
 ### Superseded planning note — historical provenance
 
