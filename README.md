@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–13 committed; Part One complete, Part Two Chapters 01–05 committed, and 11 chapters remain planned.
+**Status:** Chapters 01–14 committed; Part One complete, Part Two Chapters 01–06 committed, and 10 chapters remain planned.
 
 ## Play
 
@@ -21,6 +21,7 @@
 - [Chapter 11 — Meetings and Memories: church ruins, three illustrated panels](chapters/11-meetings-and-memories.html)
 - [Chapter 12 — The Hidden Room: playable sprite and three illustrated panels](chapters/12-hidden-room.html)
 - [Chapter 13 — The Vanishing Comrade: Syme, Hate Week, and sprite comic](chapters/13-vanishing-comrade.html)
+- [Chapter 14 — O’Brien’s Invitation: Newspeak pretext and sprite comic](chapters/14-obriens-invitation.html)
 - [Homepage cartoon gallery](index.html#cartoons)
 - GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
@@ -49,7 +50,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 011 | Two | 3 | Meetings and Memories | COMMITTED | [Play and view comic](chapters/11-meetings-and-memories.html) |
 | 012 | Two | 4 | The Hidden Room | COMMITTED | [Play and view comic](chapters/12-hidden-room.html) |
 | 013 | Two | 5 | The Vanishing Comrade | COMMITTED | [Play and view comic](chapters/13-vanishing-comrade.html) |
-| 014 | Two | 6 | O’Brien’s Invitation | PLANNED | Not created |
+| 014 | Two | 6 | O’Brien’s Invitation | COMMITTED | [Play and view comic](chapters/14-obriens-invitation.html) |
+| 015 | Two | 7 | The Changed Enemy | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -206,6 +208,16 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 
 **Persistence:** All prior chapter HTML artifacts remain unmodified. The player interaction log is session-local; the release, gallery and ledger persist in Git.
 
+## Episode 014 — Part Two, Chapter Six: O’Brien’s Invitation
+
+**Story:** O’Brien speaks to Winston in a Ministry corridor and discusses the new Newspeak dictionary. He offers Winston an address. Winston interprets the invitation as a possible route toward political opposition, but no independently verified allegiance can be inferred from the encounter alone.
+
+**Sprite-cartoon art:** Standalone [Chapter 014](chapters/14-obriens-invitation.html) is an original playable 320×200 Canvas2D experience with three locations, six inspection witnesses, two conclusion gates, keyboard/touch controls, optional synthesized sound and three embedded cartoon pages. The [homepage comic gallery](index.html#cartoons) shows three new original illustrated sprite panels directly on GitHub Pages.
+
+**Invariant:** `received invitation != known allegiance`; `private expectation != observed intent`. The chapter retains what O’Brien said, what Winston imagined, and what was not established as separate categories.
+
+**Persistence:** All previous chapter files 001–013 remain independent; player events are only stored in browser session state. Git preserves the release files and chronological ledger.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -228,9 +240,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 014
+## Next natural boundary — 1984 / 015
 
-**Part Two, Chapter Six:** O’Brien invites Winston to visit his home under the pretext of discussing Newspeak, and Winston reads the encounter as a possible signal of opposition. The next sprite-comic should distinguish a spoken invitation and observable conduct from presumed political allegiance, while continuing a verifiable GitHub Pages release.
+**Part Two, Chapter Seven:** The enemy in a Hate Week speech abruptly changes, and workers at the Ministry must revise published material to present the new alliance as if it had always been the case. The next sprite-comic should preserve a time-ordered account of the public switch and the later rewritten record, distinguishing external announcements from historical evidence.
 
 ### Superseded planning note — historical provenance
 
