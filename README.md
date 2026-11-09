@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–03 committed; 21 further chapters remain planned, not yet authored.
+**Status:** Chapters 01–04 committed; 20 further chapters remain planned, not yet authored.
 
 ## Play
 
@@ -11,6 +11,7 @@
 - [Chapter 01 — The Unwritten Page](chapters/01-the-unwritten-page.html)
 - [Chapter 02 — The Knock at the Door](chapters/02-knock-at-door.html)
 - [Chapter 03 — The Golden Country](chapters/03-golden-country.html)
+- [Chapter 04 — The Records Department](chapters/04-records-department.html)
 - GitHub Pages target URL (only after Pages is enabled): `https://davidwise01.github.io/1984/`
 
 ### GitHub Pages deployment
@@ -24,7 +25,8 @@ This repository contains a complete `index.html` at the root and needs no build 
 | 001 | One | 1 | The Unwritten Page | COMMITTED | [Play](chapters/01-the-unwritten-page.html) |
 | 002 | One | 2 | The Knock at the Door | COMMITTED | [Play](chapters/02-knock-at-door.html) |
 | 003 | One | 3 | The Golden Country | COMMITTED | [Play](chapters/03-golden-country.html) |
-| 004 | One | 4 | The Records Department | PLANNED | Not created |
+| 004 | One | 4 | The Records Department | COMMITTED | [Play](chapters/04-records-department.html) |
+| 005 | One | 5 | Lunch and Newspeak | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -61,6 +63,20 @@ This repository contains a complete `index.html` at the root and needs no build 
 
 **Kernel interpretation:** append-only within a single browser session for this minigame. Git commits remain the durable release history; this minigame does not upload player events or create ongoing autonomous observation.
 
+## Episode 004 — Chapter Four
+
+**Setting:** Winston's Records Department workspace inside the Ministry of Truth.
+
+**Narrative spine:** Winston receives orders to revise prior reports to align with the Party's present declarations. Workers, pneumatic delivery, desk manuscripts and disposal equipment form the mechanism of historical erasure. The player sees the difference between an institutional replacement and a source-preserving audit.
+
+**Original gameplay example:** A prior fictional production target says 12.0M units; a new directive demands the past be represented as 9.0M. These are invented demonstration figures, not numeric quotations from Orwell.
+
+**Mechanics:** standalone Canvas2D 320×200 sprite office, arrow/WASD and touch movement, optional synthesized audio, four spatial observations and a gated three-part revision desk: compare, issue revision, seal source witness. Seven total checkpoints; the two textual snapshots remain separately visible.
+
+**Invariant:** `original != replacement`. A revision may change the institutional current account without changing what the preserved prior snapshot said. Gameplay's event ledger exists only in browser memory; durable publication occurs through the committed chapter file. No external storage or self-running agent is claimed.
+
+**Chapter history:** Prior chapters 001–003 were retained without alteration.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -83,9 +99,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 004
+## Next natural boundary — 1984 / 005
 
-**Part One, Chapter Four:** Winston works in the Records Department of the Ministry of Truth and alters old articles to match current declarations. The next experiment should model a current official record separately from immutable prior snapshots, demonstrate revision provenance, and avoid representing a changed official account as unchanged history. Author a new independent sprite chapter, append its ledger entry, and retain Chapters 01–03.
+**Part One, Chapter Five:** Lunch in the Ministry canteen. Syme explains the ongoing reduction of the Newspeak dictionary. Parsons collects a contribution; Winston observes the young dark-haired woman and worries about his own visibility. The experiment should model lexical compression and the distinction between fewer available words and fewer possible thoughts, using a separate original sprite chapter and a semantic provenance table.
 
 ### Authorship notice
 
