@@ -18,7 +18,11 @@
 
 ### GitHub Pages deployment
 
-This repository contains a complete `index.html` at the root and needs no build tool. To publish, set **Settings → Pages → Build and deployment → Deploy from a branch**, choose `main` and `/(root)`, then save. Until a Pages deployment is verified, the GitHub Pages target is only a proposed URL, not a claim the public site is live.
+The repository contains a standalone root `index.html` and an explicit [GitHub Pages workflow](.github/workflows/pages.yml), triggered on every push to `main` that changes a chapter, root index, kernel, assets, README or workflow; it can also be manually dispatched. The workflow checks out files, configures Pages, uploads the static site and requests deployment.
+
+**Repository setting:** For this workflow method, select **Settings → Pages → Build and deployment → Source: GitHub Actions**. Do not choose branch deployment if using this Actions workflow. The expected site URL is `https://davidwise01.github.io/1984/`; live publication must still be confirmed in a completed Pages run. If another branch-based Pages process exists, prefer one method to avoid overlapping deployments.
+
+Every chapter release must update `index.html`, this ledger and the standalone chapter. Commit delivery and a Pages workflow run are separate conditions; report both.
 
 ## Canonical release ledger
 
