@@ -3,7 +3,7 @@
 **Repository:** [DavidWise01/1984](https://github.com/DavidWise01/1984)  
 **Project thread:** `1984 / 001`  
 **Created:** 2026-11-08  
-**Status:** Chapters 01–07 committed; 17 further chapters remain planned, not yet authored.
+**Status:** Chapters 01–08 committed; Part One complete. 16 further chapters in Parts Two and Three remain planned, not yet authored.
 
 ## Play
 
@@ -15,7 +15,9 @@
 - [Chapter 05 — Lunch and Newspeak](chapters/05-lunch-and-newspeak.html)
 - [Chapter 06 — The Marriage and the Proles](chapters/06-marriage-and-proles.html)
 - [Chapter 07 — The Proles and the Photograph](chapters/07-proles-and-photograph.html)
-- GitHub Pages target URL (only after Pages is enabled): `https://davidwise01.github.io/1984/`
+- [Chapter 08 — The Antique Shop: playable sprites + embedded cartoon pages](chapters/08-antique-shop.html)
+- [Homepage cartoon gallery](index.html#cartoons)
+- GitHub Pages site URL (deployment workflow configured; verify latest run): `https://davidwise01.github.io/1984/`
 
 ### GitHub Pages deployment
 
@@ -36,7 +38,8 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 | 005 | One | 5 | Lunch and Newspeak | COMMITTED | [Play](chapters/05-lunch-and-newspeak.html) |
 | 006 | One | 6 | The Marriage and the Proles | COMMITTED | [Play](chapters/06-marriage-and-proles.html) |
 | 007 | One | 7 | The Proles and the Photograph | COMMITTED | [Play](chapters/07-proles-and-photograph.html) |
-| 008 | One | 8 | The Antique Shop | PLANNED | Not created |
+| 008 | One | 8 | The Antique Shop | COMMITTED | [Play + read comic](chapters/08-antique-shop.html) |
+| 009 | Two | 1 | The Secret Note | PLANNED | Not created |
 
 **Chapter divisions:** Part One = 8; Part Two = 10; Part Three = 6; **24 total**.
 
@@ -123,6 +126,20 @@ Every chapter release must update `index.html`, this ledger and the standalone c
 
 **Provenance:** Player progress exists in browser-session memory; Git preserves the original scene and canonical chapter ledger. Chapters 001–006 are retained unchanged.
 
+## Episode 008 — Chapter Eight / Part One conclusion
+
+**Setting:** prole pub → Charrington's antique shop → furnished upstairs room.
+
+**Narrative spine:** Winston asks an old man about life before the Party, but testimony is incomplete. In Mr. Charrington's antique shop he discovers a glass paperweight; upstairs he imagines a pocket of private life. Neither antique appearance nor a missing visible telescreen confirms a reliable history or true safety.
+
+**Art-first GitHub Pages:** The root [arcade homepage](index.html#cartoons) embeds **three original, visible pixel-cartoon panels** rendered by its Canvas2D gallery, with direct links to the new chapter. The Chapter 008 HTML independently embeds **three illustrated sprite-comic panels** with captions plus a playable three-scene pixel adventure. These are not just Markdown links or external stock pictures: canvas drawings render within the served pages.
+
+**Mechanics:** Three scenes, six spatial observations, an observation-versus-inference comparison and a final seal (eight checkpoints); keyboard/touch controls and optional synthesized audio. All artwork and prose are original. There is no external runtime or required asset library.
+
+**Invariants:** `old object != certified past`; `appears private != confirmed secure`; `remembered testimony != complete historical record`. Chapters 001–007 preserved as independent committed artifacts.
+
+**GitHub Pages contract:** Each chapter release updates and verifies `index.html`, the new sprite/comic episode and this ledger; the existing [GitHub Actions workflow](.github/workflows/pages.yml) publishes the root site on pushes to `main`. A successful workflow run is distinguished from independent browser verification of the public URL.
+
 ## Governing kernel — instantiated
 
 - [Executable deterministic chronicle kernel](kernel/chronicle.js): immutable event creation, append-only event histories, lineage traversal, and sequence validation. It is a pure JavaScript module; Git commits, not browser session state, provide durable persistence.
@@ -145,9 +162,9 @@ no claims of completed chapters until file and commit verified
 
 The completed Dante alchemical sweep remains in the independent [archon](https://github.com/DavidWise01/archon/tree/main/alchemy) repository. This project reuses **workflow invariants**, not Dante's characters or cosmology: original sprite graphics, an append-only chapter trail, identity across scene changes, observation separated from interpretation, and no historical file overwriting except explicit corrections.
 
-## Next natural boundary — 1984 / 008
+## Next natural boundary — 1984 / 009
 
-**Part One, Chapter Eight:** Winston walks through the prole district, speaks with an old man about the past, and visits Mr. Charrington's antique shop, where the glass paperweight and upstairs room suggest a fragile connection to life before the Party. The original pixel episode should distinguish nostalgic impressions from corroborated history, and preserve prior records.
+**Part Two, Chapter One:** Winston receives a covert note from the dark-haired woman. His assumptions are interrupted by evidence of an unexpected personal message. The sprite-comic chapter should make observation, interpretation and uncertainty visible, keep its artwork directly on GitHub Pages, and preserve Part One as a complete eight-chapter sequence.
 
 ### Authorship notice
 
